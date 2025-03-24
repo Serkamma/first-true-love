@@ -3,134 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Campaign for Change - Make a Difference Today</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>DrugFree Future | Building Stronger Communities</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header -->
     <header>
         <div class="container">
-            <nav class="navbar">
-                <div class="logo">
-                    <img src="images/logo.svg" alt="Campaign for Change Logo">
-                    <span>CampaignForChange</span>
-                </div>
+            <div class="logo">
+                <a href="index.html">
+                    <span class="logo-text">DrugFree<span class="highlight">Future</span></span>
+                </a>
+            </div>
+            <nav>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span class="hamburger"></span>
+                </button>
                 <ul class="nav-links">
                     <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="#mission">Mission</a></li>
-                    <li><a href="donate.html">Donate</a></li>
-                    <li><a href="updates.html">Updates</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="blog.html">Blog</a></li>
                     <li><a href="contact.html">Contact</a></li>
+                    <li><a href="donate.html" class="donate-btn">Donate</a></li>
                 </ul>
-                <div class="hamburger">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="overlay"></div>
+    <section class="hero">
         <div class="container">
-            <div class="hero-content animate__animated animate__fadeIn">
-                <h1>Join Our Campaign for Change</h1>
-                <p>We're on a mission to create a better future through collective action. Together, we can make a real difference in our community and beyond.</p>
-                <a href="donate.html" class="btn btn-primary">Support Our Cause</a>
-                <a href="#mission" class="btn btn-secondary">Learn More</a>
+            <div class="hero-content">
+                <h1 class="animate-fade-in">Building a <span class="highlight">Drug-Free</span> Future</h1>
+                <p class="animate-fade-in delay-1">Empowering communities to prevent substance abuse through education, support, and advocacy.</p>
+                <div class="hero-cta animate-fade-in delay-2">
+                    <a href="donate.html" class="btn btn-primary">Support Our Cause</a>
+                    <a href="about.html" class="btn btn-secondary">Learn More</a>
+                </div>
             </div>
-        </div>
-        <div class="hero-wave">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#ffffff" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,149.3C960,160,1056,160,1152,149.3C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-            </svg>
         </div>
     </section>
 
-    <!-- Mission Section -->
-    <section class="mission" id="mission">
+    <section class="mission">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Mission</h2>
-                <div class="section-divider"></div>
+                <h2>Our Mission</h2>
+                <div class="underline"></div>
             </div>
             <div class="mission-content">
-                <p>At Campaign for Change, we believe in the power of collective action to address the most pressing challenges facing our society. Our mission is to mobilize communities, advocate for meaningful policy changes, and implement sustainable solutions that create lasting positive impact.</p>
-                <p>Through education, advocacy, and direct action, we work tirelessly to build a more just, equitable, and sustainable world for current and future generations. We envision a future where everyone has access to the resources and opportunities they need to thrive.</p>
-                <div class="stats-container">
-                    <div class="stat-item">
-                        <div class="stat-number" data-count="5000">0</div>
-                        <div class="stat-label">Volunteers</div>
+                <div class="mission-text animate-on-scroll">
+                    <p>At DrugFree Future, we are dedicated to creating a world where individuals and communities thrive free from the harmful effects of substance abuse. We believe in a comprehensive approach that combines prevention, education, intervention, and advocacy.</p>
+                    <p>Through collaborative efforts with schools, families, healthcare providers, and law enforcement, we work to build resilient communities that support healthy choices and provide resources for those affected by addiction.</p>
+                </div>
+                <div class="stats-container animate-on-scroll">
+                    <div class="stat-box">
+                        <div class="stat-number" data-target="20000">0</div>
+                        <div class="stat-label">Youth Reached</div>
                     </div>
-                    <div class="stat-item">
-                        <div class="stat-number" data-count="120">0</div>
-                        <div class="stat-label">Communities</div>
+                    <div class="stat-box">
+                        <div class="stat-number" data-target="150">0</div>
+                        <div class="stat-label">Community Programs</div>
                     </div>
-                    <div class="stat-item">
-                        <div class="stat-number" data-count="35">0</div>
-                        <div class="stat-label">Projects</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number" data-count="250000">0</div>
-                        <div class="stat-label">People Helped</div>
+                    <div class="stat-box">
+                        <div class="stat-number" data-target="85">0</div>
+                        <div class="stat-label">Success Rate (%)</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
-    <section class="features">
+    <section class="programs">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">What We Do</h2>
-                <div class="section-divider"></div>
+                <h2>Our Programs</h2>
+                <div class="underline"></div>
             </div>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-bullhorn"></i>
-                    </div>
-                    <h3>Advocacy</h3>
-                    <p>We amplify voices and advocate for policies that create meaningful change at local, national, and global levels.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-hands-helping"></i>
-                    </div>
-                    <h3>Community Organizing</h3>
-                    <p>We build and strengthen communities through grassroots organizing, empowering individuals to take collective action.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
+            <div class="programs-grid">
+                <div class="program-card animate-on-scroll">
+                    <div class="program-icon">
                         <i class="fas fa-graduation-cap"></i>
                     </div>
-                    <h3>Education</h3>
-                    <p>We provide resources and information to raise awareness and inspire informed action on critical issues.</p>
+                    <h3>Education & Prevention</h3>
+                    <p>Evidence-based programs for schools and community groups to prevent substance abuse before it starts.</p>
+                    <a href="#" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-seedling"></i>
+                <div class="program-card animate-on-scroll">
+                    <div class="program-icon">
+                        <i class="fas fa-hands-helping"></i>
                     </div>
-                    <h3>Sustainability</h3>
-                    <p>We implement eco-friendly solutions and promote sustainable practices in communities around the world.</p>
+                    <h3>Recovery Support</h3>
+                    <p>Comprehensive resources and peer support systems for individuals on their recovery journey.</p>
+                    <a href="#" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="program-card animate-on-scroll">
+                    <div class="program-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Community Advocacy</h3>
+                    <p>Mobilizing community members to advocate for policies that promote health and well-being.</p>
+                    <a href="#" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="program-card animate-on-scroll">
+                    <div class="program-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Family Support</h3>
+                    <p>Resources and counseling for families affected by substance abuse issues.</p>
+                    <a href="#" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta">
+    <section class="cta-section">
         <div class="container">
-            <div class="cta-content">
-                <h2>Ready to Make a Difference?</h2>
-                <p>Join our growing community of changemakers and help us create a better future for all.</p>
+            <div class="cta-content animate-on-scroll">
+                <h2>Join Our Movement</h2>
+                <p>Help us create drug-free communities by volunteering, donating, or spreading awareness.</p>
                 <div class="cta-buttons">
                     <a href="donate.html" class="btn btn-primary">Donate Now</a>
                     <a href="contact.html" class="btn btn-secondary">Get Involved</a>
@@ -139,226 +132,184 @@
         </div>
     </section>
 
-    <!-- Updates Section Preview -->
-    <section class="updates-preview">
+    <section class="latest-news">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Latest Updates</h2>
-                <div class="section-divider"></div>
+                <h2>Latest Updates</h2>
+                <div class="underline"></div>
             </div>
-            <div class="updates-grid">
-                <div class="update-card">
-                    <div class="update-img">
-                        <img src="images/updates/post1.jpg" alt="Community Event">
+            <div class="news-grid">
+                <div class="news-card animate-on-scroll">
+                    <div class="news-image">
+                        <img src="assets/images/blog-1.jpg" alt="Community workshop">
                     </div>
-                    <div class="update-content">
-                        <div class="update-date">
-                            <i class="far fa-calendar-alt"></i> March 20, 2025
-                        </div>
-                        <h3>Community Event Success</h3>
-                        <p>Our recent community event brought together over 200 participants to discuss local environmental initiatives.</p>
-                        <a href="updates.html#post1" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    <div class="news-content">
+                        <div class="news-date">March 15, 2025</div>
+                        <h3>New Prevention Program Launches in Schools</h3>
+                        <p>Our innovative prevention curriculum has been adopted by 50 new schools across the country.</p>
+                        <a href="blog.html" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="update-card">
-                    <div class="update-img">
-                        <img src="images/updates/post2.jpg" alt="Policy Proposal">
+                <div class="news-card animate-on-scroll">
+                    <div class="news-image">
+                        <img src="assets/images/blog-2.jpg" alt="Youth program">
                     </div>
-                    <div class="update-content">
-                        <div class="update-date">
-                            <i class="far fa-calendar-alt"></i> March 15, 2025
-                        </div>
-                        <h3>New Policy Proposal</h3>
-                        <p>We've published our comprehensive policy proposal addressing key challenges in our community.</p>
-                        <a href="updates.html#post2" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    <div class="news-content">
+                        <div class="news-date">March 5, 2025</div>
+                        <h3>Annual Fundraiser Exceeds Goals</h3>
+                        <p>Thanks to your support, our annual fundraiser raised over $250,000 for community programs.</p>
+                        <a href="blog.html" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="update-card">
-                    <div class="update-img">
-                        <img src="images/updates/post3.jpg" alt="Volunteer Spotlight">
+                <div class="news-card animate-on-scroll">
+                    <div class="news-image">
+                        <img src="assets/images/blog-3.jpg" alt="Policy meeting">
                     </div>
-                    <div class="update-content">
-                        <div class="update-date">
-                            <i class="far fa-calendar-alt"></i> March 10, 2025
-                        </div>
-                        <h3>Volunteer Spotlight</h3>
-                        <p>Meet Sarah, a dedicated volunteer who has been instrumental in our outreach efforts this year.</p>
-                        <a href="updates.html#post3" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    <div class="news-content">
+                        <div class="news-date">February 28, 2025</div>
+                        <h3>New Research Partnership Announced</h3>
+                        <p>We're partnering with State University to study the effectiveness of early intervention programs.</p>
+                        <a href="blog.html" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="text-center">
-                <a href="updates.html" class="btn btn-secondary">View All Updates</a>
+            <div class="view-all-container">
+                <a href="blog.html" class="btn btn-secondary">View All Updates</a>
             </div>
         </div>
     </section>
 
-    <!-- Testimonials Section -->
     <section class="testimonials">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">What People Say</h2>
-                <div class="section-divider"></div>
+                <h2>Testimonials</h2>
+                <div class="underline"></div>
             </div>
             <div class="testimonial-slider">
                 <div class="testimonial-slide active">
                     <div class="testimonial-content">
                         <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
-                        <p>Working with Campaign for Change has been an incredible experience. Their dedication to creating meaningful impact is inspiring and effective.</p>
+                        <p>"The prevention program at our school has completely changed how our students understand substance abuse. It's not about fear tactics; it's about empowerment and making informed choices."</p>
                         <div class="testimonial-author">
-                            <img src="images/testimonials/author1.jpg" alt="Testimonial Author">
-                            <div>
-                                <h4>Maria Rodriguez</h4>
-                                <p>Community Partner</p>
-                            </div>
+                            <div class="author-name">Maria Johnson</div>
+                            <div class="author-role">School Principal</div>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-slide">
                     <div class="testimonial-content">
                         <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
-                        <p>The team at Campaign for Change truly understands the importance of grassroots organizing. They've helped our neighborhood address long-standing issues.</p>
+                        <p>"As a recovering addict, the support I've received from this organization has been instrumental in my journey. The community they've built helps remind me that I'm never alone."</p>
                         <div class="testimonial-author">
-                            <img src="images/testimonials/author2.jpg" alt="Testimonial Author">
-                            <div>
-                                <h4>James Wilson</h4>
-                                <p>Local Resident</p>
-                            </div>
+                            <div class="author-name">James Miller</div>
+                            <div class="author-role">Program Participant</div>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-slide">
                     <div class="testimonial-content">
                         <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
-                        <p>As a donor, I appreciate the transparency and effectiveness of Campaign for Change. I can see my contribution making a real difference in the community.</p>
+                        <p>"The resources provided for families dealing with addiction have been a lifeline. Finally, we have tools to support our loved ones while also taking care of ourselves."</p>
                         <div class="testimonial-author">
-                            <img src="images/testimonials/author3.jpg" alt="Testimonial Author">
-                            <div>
-                                <h4>Elena Kim</h4>
-                                <p>Monthly Donor</p>
-                            </div>
+                            <div class="author-name">Sarah Chen</div>
+                            <div class="author-role">Family Support Group Member</div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="testimonial-controls">
-                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
-                <div class="testimonial-dots">
-                    <span class="dot active"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
+                <div class="testimonial-controls">
+                    <button class="prev-testimonial" aria-label="Previous testimonial"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-indicators">
+                        <button class="indicator active" data-index="0" aria-label="Testimonial 1"></button>
+                        <button class="indicator" data-index="1" aria-label="Testimonial 2"></button>
+                        <button class="indicator" data-index="2" aria-label="Testimonial 3"></button>
+                    </div>
+                    <button class="next-testimonial" aria-label="Next testimonial"><i class="fas fa-chevron-right"></i></button>
                 </div>
-                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
             </div>
         </div>
     </section>
 
-    <!-- Newsletter Section -->
     <section class="newsletter">
         <div class="container">
             <div class="newsletter-content">
-                <div class="newsletter-info">
-                    <h2>Stay Updated</h2>
-                    <p>Join our newsletter to receive the latest updates, news, and opportunities to get involved.</p>
-                </div>
+                <h2>Stay Informed</h2>
+                <p>Subscribe to our newsletter to receive updates on our programs, events, and resources.</p>
                 <form class="newsletter-form">
                     <div class="form-group">
-                        <input type="email" placeholder="Your Email Address" required>
+                        <input type="email" placeholder="Your email address" required>
                         <button type="submit" class="btn btn-primary">Subscribe</button>
                     </div>
-                    <div class="form-notice">
-                        <small>We respect your privacy and will never share your information.</small>
+                    <div class="privacy-note">
+                        <small>We respect your privacy. Unsubscribe at any time.</small>
                     </div>
                 </form>
             </div>
         </div>
     </section>
 
-    <!-- Partners Section -->
-    <section class="partners">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Our Partners</h2>
-                <div class="section-divider"></div>
-            </div>
-            <div class="partners-slider">
-                <div class="partner-logo">
-                    <img src="images/partners/partner1.png" alt="Partner Logo">
-                </div>
-                <div class="partner-logo">
-                    <img src="images/partners/partner2.png" alt="Partner Logo">
-                </div>
-                <div class="partner-logo">
-                    <img src="images/partners/partner3.png" alt="Partner Logo">
-                </div>
-                <div class="partner-logo">
-                    <img src="images/partners/partner4.png" alt="Partner Logo">
-                </div>
-                <div class="partner-logo">
-                    <img src="images/partners/partner5.png" alt="Partner Logo">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
     <footer>
-        <div class="footer-top">
-            <div class="container">
-                <div class="footer-container">
-                    <div class="footer-about">
-                        <div class="footer-logo">
-                            <img src="images/logo-white.svg" alt="Campaign for Change Logo">
-                            <span>CampaignForChange</span>
-                        </div>
-                        <p>Join us in our mission to create positive change through collective action and advocacy.</p>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <span class="logo-text">DrugFree<span class="highlight">Future</span></span>
                     </div>
-                    <div class="footer-links">
-                        <h3>Quick Links</h3>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#mission">Mission</a></li>
-                            <li><a href="donate.html">Donate</a></li>
-                            <li><a href="updates.html">Updates</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-links">
-                        <h3>Resources</h3>
-                        <ul>
-                            <li><a href="#">Reports</a></li>
-                            <li><a href="#">Publications</a></li>
-                            <li><a href="#">Press Releases</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-contact">
-                        <h3>Contact Us</h3>
-                        <p><i class="fas fa-map-marker-alt"></i> 123 Campaign Street, City, Country</p>
-                        <p><i class="fas fa-phone-alt"></i> +1 (555) 123-4567</p>
-                        <p><i class="fas fa-envelope"></i> info@campaignforchange.org</p>
+                    <p>Building stronger, healthier communities through education, support, and advocacy.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="donate.html">Donate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">For Schools</a></li>
+                        <li><a href="#">For Parents</a></li>
+                        <li><a href="#">For Healthcare Providers</a></li>
+                        <li><a href="#">Recovery Support</a></li>
+                        <li><a href="#">Crisis Hotline</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <address>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Prevention Way<br>Healthyville, HV 12345</p>
+                        <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@drugfreefuture.org</p>
+                    </address>
+                </div>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <p>&copy; 2025 Campaign for Change. All rights reserved.</p>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; 2025 DrugFree Future. All rights reserved.
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
+                </div>
             </div>
         </div>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <div class="back-to-top">
+        <a href="#" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
     <script src="js/main.js"></script>
 </body>
 </html>
