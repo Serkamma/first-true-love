@@ -1,4 +1,3 @@
-document.addEventslistener('DOMContentLoadeed',
-()=>{
-  console.log
-('L.I,
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('L.I.F.E. Campaign website loaded');
+});
