@@ -32,5 +32,3 @@ L.I.F.E. (Live In a Future Enlightened) is an anti-drug campaign targeting youth
 - Facebook: fb.com/LIFEAntiDrugPH
 - Hotline: (+63) 9497710758
 
-## License
-[Add appropriate license]
