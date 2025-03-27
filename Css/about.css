@@ -1,5 +1,5 @@
 .about-hero {
-    background-image: url('../assets/images/about-banner.jpg');
+    background-image: url('about-banner.jpg');
     background-size: cover;
     height: 300px;
     display: flex;
