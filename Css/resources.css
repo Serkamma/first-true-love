@@ -1,5 +1,5 @@
 .resources-hero {
-    background-image: url('../assets/images/resources-banner.jpg');
+    background-image: url('resources-banner.jpg');
     background-size: cover;
     height: 300px;
     display: flex;
